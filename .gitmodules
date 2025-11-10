@@ -7,3 +7,6 @@
 [submodule "related/diffcp"]
 	path = related/diffcp
 	url = git@github.com:hazysite/diffcp.git
+[submodule "related/MOI"]
+	path = related/MOI
+	url = git@github.com:jump-dev/MathOptInterface.jl.git
