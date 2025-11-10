@@ -10,3 +10,6 @@
 [submodule "related/MOI"]
 	path = related/MOI
 	url = git@github.com:jump-dev/MathOptInterface.jl.git
+[submodule "examples/VGON"]
+	path = examples/VGON
+	url = git@github.com:zhangjianjianzz/VGON.git
