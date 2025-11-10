@@ -1,0 +1,13 @@
+[project]
+name = "unified-optimiaztion-interface"
+description = "Unified Optimiaztion Interface in Python."
+dependencies = [
+
+]
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.11"
+urls = {Homepage = "https://cnb.cool/hazy/uoi"}
+
+[project.optional-dependencies]
+DIFFCP = ["diffcp"]

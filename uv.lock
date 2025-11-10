@@ -1,0 +1,49 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "diffcp"
+version = "1.1.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "threadpoolctl" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b9/27/9bdcc0b0559f452d2746a19e525c2f78361ed2fc0a909079030f8793dc5a/diffcp-1.1.4.tar.gz", hash = "sha256:2c7aac13544fedcf858b33fec6aaf50cc8be6e6996ac6a54a46697e2697ab24c", size = 2136239, upload-time = "2025-02-03T19:33:10.635Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/81/6f/1b71e6002267483e95bdb7ae1a78bb7d65a305d45bb20ccaadd63e1ca904/diffcp-1.1.4-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:3471138129b28f3f80bc0fde2e8c8c670aaf7da530fb3c9b36134b941795960a", size = 223636, upload-time = "2025-02-03T19:32:49.194Z" },
+    { url = "https://files.pythonhosted.org/packages/47/55/71dc2532a5c88dea365d7838b7c3f565a5ab075a44772b17a55c576f0a62/diffcp-1.1.4-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:c93e55f210179701dfb4d835250691099f109fbae0e93819fe833b11f4130be0", size = 200752, upload-time = "2025-02-03T19:32:50.621Z" },
+    { url = "https://files.pythonhosted.org/packages/4f/20/b3e7071f1b06116ffac140951f369d22f380283bdcef3ac0fbdaa92c8c1e/diffcp-1.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:07f9150663aa62468223dc18e5512e8f195e98bd0320fed56d427e7aa18479f5", size = 249797, upload-time = "2025-02-03T19:32:52.55Z" },
+    { url = "https://files.pythonhosted.org/packages/3d/5d/4c61ed7271643bab357ed5ca799bfdaeab47d874e3cba949b9460b92f134/diffcp-1.1.4-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:2ca684039fbb011d073831100ae86bf46108c27e1220612d8bdaa31ade83e9c2", size = 1233649, upload-time = "2025-02-03T19:32:54.166Z" },
+    { url = "https://files.pythonhosted.org/packages/a5/7d/36697377fafc6034ed8bcde313d7752e8a75be81fa64b502968d58217cdf/diffcp-1.1.4-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:40c573b63167cf9bc71b24a423826b74ff05ff425b66b081ac3566e2eb72589c", size = 224593, upload-time = "2025-02-03T19:32:55.589Z" },
+    { url = "https://files.pythonhosted.org/packages/95/d5/dcc67effa470fa60525ef0c28f7e47c698baf056eb048af26eb23ea0bde7/diffcp-1.1.4-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:e46fa2aac1c69e4d17c71ca134bbdacc32fe7be6634198526806fe6b335a0ef9", size = 200553, upload-time = "2025-02-03T19:32:57.728Z" },
+    { url = "https://files.pythonhosted.org/packages/5c/a4/6e162ed7cf8ba42c87ba179cecb3f623ebe0360dffc9983246fb866391ff/diffcp-1.1.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:cc655c4af380214fae477dcbbf4ef23e424dbb78471ce5cfe292c6823f605c8d", size = 248254, upload-time = "2025-02-03T19:32:59.937Z" },
+    { url = "https://files.pythonhosted.org/packages/1c/66/7c6bd013e9a45adfba594d334eec8040f87d909587a7968357399d9e1005/diffcp-1.1.4-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:5ec267629777d0143844a645625abe45f98999ef0e83635c9f30f6789a97f373", size = 1233577, upload-time = "2025-02-03T19:33:01.657Z" },
+    { url = "https://files.pythonhosted.org/packages/84/e1/ca171d30689a8ba4afebbc3b347c55c3af19405059a2fad96586cbee8b3b/diffcp-1.1.4-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:c50dccc6c144f536a8490e17dc426b176664ea318dce66a87d82e4498916203f", size = 224676, upload-time = "2025-02-03T19:33:03.13Z" },
+    { url = "https://files.pythonhosted.org/packages/f5/cc/c9296b23c8b3b26ce2203551d32e3a9969ee03bc2c31b2ccd2a8c8f0d2a1/diffcp-1.1.4-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:f928ddc032f2f18e284c585f7b70a58b16cde6980ae79bf8a624fa9f8e029804", size = 200617, upload-time = "2025-02-03T19:33:04.378Z" },
+    { url = "https://files.pythonhosted.org/packages/4c/85/96ecee50162c2db0bbee7506520d0fb16c7a4595e32e6a21141f71e4f2ff/diffcp-1.1.4-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bfc188ade6f87a0a2aac3016e4e5ea54d4004ac8eaa546db3963425c46eabaf8", size = 248271, upload-time = "2025-02-03T19:33:06.667Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/b2/5853f108d38b1fbbd20130adf75c017480e8c897cc9f0227ebfcaa603c9c/diffcp-1.1.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:d9031caf41ba01a5942df1b69ac4600d68973bf0db1c71ae4892ca9d4c8d34e9", size = 1233630, upload-time = "2025-02-03T19:33:08.896Z" },
+]
+
+[[package]]
+name = "threadpoolctl"
+version = "3.6.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b7/4d/08c89e34946fce2aec4fbb45c9016efd5f4d7f24af8e5d93296e935631d8/threadpoolctl-3.6.0.tar.gz", hash = "sha256:8ab8b4aa3491d812b623328249fab5302a68d2d71745c8a4c719a2fcaba9f44e", size = 21274, upload-time = "2025-03-13T13:49:23.031Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/32/d5/f9a850d79b0851d1d4ef6456097579a9005b31fea68726a4ae5f2d82ddd9/threadpoolctl-3.6.0-py3-none-any.whl", hash = "sha256:43a0b8fd5a2928500110039e43a5eed8480b918967083ea48dc3ab9f13c4a7fb", size = 18638, upload-time = "2025-03-13T13:49:21.846Z" },
+]
+
+[[package]]
+name = "unified-optimiaztion-interface"
+version = "0.1.0"
+source = { virtual = "." }
+
+[package.optional-dependencies]
+diffcp = [
+    { name = "diffcp" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "diffcp", marker = "extra == 'diffcp'" }]
+provides-extras = ["diffcp"]

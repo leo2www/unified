@@ -4,3 +4,6 @@
 [submodule "related/cvxpy"]
 	path = related/cvxpy
 	url = git@github.com:leo2www/cvxpyComplex.git
+[submodule "related/diffcp"]
+	path = related/diffcp
+	url = git@github.com:hazysite/diffcp.git
