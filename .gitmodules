@@ -1,0 +1,3 @@
+[submodule "related/CvxpyLayers"]
+	path = related/CvxpyLayers
+	url = git@github.com:leo2www/cvxpylayers.git
