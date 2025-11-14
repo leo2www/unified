@@ -2,7 +2,9 @@
 name = "unified-optimiaztion-interface"
 description = "Unified Optimiaztion Interface in Python."
 dependencies = [
-
+    "cvxpylayers",
+    "numpy>=2.3.4",
+    "torch>=2.9.0",
 ]
 version = "0.1.0"
 readme = "README.md"
@@ -11,3 +13,28 @@ urls = {Homepage = "https://cnb.cool/hazy/uoi"}
 
 [project.optional-dependencies]
 DIFFCP = ["diffcp"]
+CVXPYLAYERS = ["cvxpylayers"]
+
+[tool.uv.workspace]
+members = [
+    "related/CvxpyLayers",
+    "related/diffcp",
+    "related/triton",
+]
+
+[tool.uv.sources]
+cvxpylayers = { workspace = true }
+diffcp = { workspace = true } 
+
+
+[tool.scikit-build.cmake.define]
+# 下面是有条件的 override
+[[tool.scikit-build.overrides]]
+# 只在 Windows 上生效（sys.platform 以 "win" 开头，如 win32）
+if.platform-system = "^win"
+
+# 继承原先的 cmake.define 表（append 是“在原基础上追加 / 覆盖对应 key”）
+inherit.cmake.define = "append"
+
+# 在 override 里设置 CMAKE_GENERATOR_PLATFORM
+cmake.define.CMAKE_GENERATOR_PLATFORM = "x64"

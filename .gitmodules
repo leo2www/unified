@@ -1,18 +1,18 @@
 [submodule "related/CvxpyLayers"]
 	path = related/CvxpyLayers
-	url = git@github.com:leo2www/cvxpylayers.git
+	url = https://github.com/leo2www/cvxpylayers.git
 [submodule "related/cvxpy"]
 	path = related/cvxpy
-	url = git@github.com:leo2www/cvxpyComplex.git
+	url = https://github.com/leo2www/cvxpyComplex.git
 [submodule "related/diffcp"]
 	path = related/diffcp
-	url = git@github.com:hazysite/diffcp.git
+	url = https://github.com/hazysite/diffcp.git
 [submodule "related/MOI"]
 	path = related/MOI
-	url = git@github.com:jump-dev/MathOptInterface.jl.git
+	url = https://github.com/jump-dev/MathOptInterface.jl.git
 [submodule "examples/VGON"]
 	path = examples/VGON
-	url = git@github.com:zhangjianjianzz/VGON.git
+	url = https://github.com/zhangjianjianzz/VGON.git
 [submodule "related/triton"]
 	path = related/triton
 	url = https://github.com/triton-lang/triton.git
